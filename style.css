@@ -1,0 +1,305 @@
+body {
+	margin: 0;
+	color: #212121;
+}
+
+#split {
+	background: #ffcdd2;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	padding: 0 0.5rem;
+}
+
+.name {
+	margin: 0 auto;
+	align-self: center;
+	color: #212121;
+}
+
+.navlinks {
+	display: flex;
+	flex-direction: column;
+	font-family: 'Abel', sans-serif;
+	font-size: 18px;
+    font-weight: normal;
+    line-height: 28px;
+}
+
+header {
+	color: #212121;
+}
+
+nav a:hover {
+	color: white;
+}
+
+nav ul {
+	list-style: none;
+	padding: 0;
+}
+
+h1 {
+	font-family: 'Playfair Display', serif;
+	font-size: 70px;
+	line-height: 66px;
+	margin: 0;
+	padding-top: 20%;
+	padding-bottom: 0%;
+	text-align: center;
+	color: #212121;
+}
+
+h2 {
+    font-family: 'Abel', sans-serif;
+    font-weight: normal;
+    margin: 0px;
+    padding: 8% 4% 0% 4%;
+    text-align: center;
+    }
+
+p {
+    font-family: 'Alice', serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 23px;
+    margin: 0 0 0 0;
+    padding: 6% 10%;
+    text-align: center;
+    }
+
+img {
+	height: 300px;
+	width: 300px;
+	margin: 20px;
+	margin-bottom: 30px;
+	border: 2px solid #212121;
+	border-radius: 5px;
+	box-shadow: 15px 15px 12px 2px rgba(224,224,224,1);
+}
+
+.images {
+	max-width: 1200px;
+	margin: 0 auto 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+/* About Script */
+
+.facts {
+	max-width: 350px;
+	margin: 0 6px 10px 10px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	align-self: flex-start;
+}
+
+.facts li {
+	font-family: 'Alice', serif;
+}
+
+.vienna {
+	font-style: italic;
+	font-weight: bold;
+}
+
+.vienna:hover {
+	color: #ffcdd2;
+}
+
+.books {
+	max-width: 350px;
+	margin: 0 6px 10px 10px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	align-self: flex-start;
+}
+
+.books li {
+	font-family: 'Alice', serif;
+}
+
+.facts-books {
+	max-width: 900px;
+	margin: 0 auto 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+/* Form Script */
+
+/*.contactbox {
+	max-width: 1200px;
+	margin: 0 auto 0 auto;
+	background-color: #FFF;
+	border: 2px solid #212121;
+	margin: 0 10% 0 10%;
+    padding: 3% 3%;
+}
+
+*/
+
+.contactbox {
+	display: flex;
+	justify-content: center;
+}
+
+form {
+	width: 280px;
+	height: 435px;
+	border: 2px solid #212121;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: flex-start;
+
+	padding: 12px;
+	border-radius: 5px;
+    box-shadow: 15px 15px 12px 2px rgba(224,224,224,1);
+    background: #f5f5f5;
+    margin-bottom: 35px;
+}
+
+.title {
+	padding: 2px 6px 5px 0px;
+	font-family: 'Alice', serif;
+	font-size: 16px;
+    font-weight: normal;
+}
+
+.inputbox {
+	margin-bottom: 18px;
+	display: flex;
+	width: 271px;
+	border-radius: 3px;
+}
+
+
+.textbox {
+	margin-bottom: 12px;
+	display: flex;
+	width: 271px;
+	height: 251px;
+}
+
+.sub-button {
+	font-weight: bold;
+ 	font-family: 'Abel', sans-serif;
+ 	border-radius: 3px;
+}
+
+/*.center {
+     display: flex;
+     justify-content; center;
+}
+
+.contactbox {
+  display: flex;
+  
+  width: 280px;
+  margin: 0 12% 0 12%;
+  padding: 12px;
+  background-color: #FFF;
+  border: 2px solid #212121;
+  border-top-right-radius: 24px;
+  border-bottom-left-radius: 24px;
+  box-shadow: 15px 15px 12px 2px rgba(224,224,224,1);
+} 
+
+
+.contactbox {
+	display: flex;
+    padding: 15px;
+    border: 3px solid #212121;
+    margin: 0px 28px 28px 28px;
+	}
+
+.form-row {
+  padding: 10px 0;
+  display: flex;
+}
+
+.form-row label {
+  padding-right: 10px;
+}
+
+.form-row input {
+  flex-grow: 1;
+}
+
+
+*/
+
+	
+
+@media (min-width: 768px) {
+	#split {
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column;
+	}
+	.name {
+		align-self: center;
+		order: 1;
+	}
+	.navlinks {
+		list-style: none;
+		padding: 0;
+		display: flex;
+	}
+	nav ul {
+		display: flex;
+		align-self: flex-end;
+		font-size: 22px;
+	}
+	nav li {
+	list-style: none;
+	padding: 0px;
+	padding-right: 12px;
+	flex-direction: row;
+	}
+	h1 {
+		font-size: 100px;
+		line-height: 76px;
+		padding-bottom: 20%;
+		padding-top: 0%;
+	}
+
+	form {
+	width: 540px;
+	height: 435px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	justify-content: flex-start;
+	}
+
+	.inputbox {
+	padding-left: 12px;
+	width: 471px;
+	}
+
+
+	.textbox {
+	padding-left: 10px;
+	width: 453px;
+	height: 251px;
+	}
+}
+
+
+
+
+
+
+
+
